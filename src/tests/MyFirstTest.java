@@ -11,12 +11,14 @@ public class MyFirstTest {
 	@Test
 	public void testingFirstName(){
 		
-	
 	WebDriver driver = new ChromeDriver();
-	// Path of the chrome browser
+	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 	driver.get("http://www.facebook.com");
 		// Jar is a collection of Java Classes 
+	// test develop branch
+	
+	// gtesgt 
 	
 	
-}
+    }
 }
