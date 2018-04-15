@@ -5,6 +5,7 @@
     <classes>
       <class name="tests.MyFirstTest">
         <methods>
+          <include name="initDrivers"/>
           <include name="testingFirstName"/>
         </methods>
       </class> <!-- tests.MyFirstTest -->
