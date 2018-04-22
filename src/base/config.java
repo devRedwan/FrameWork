@@ -2,6 +2,7 @@ package base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -18,8 +19,9 @@ public class config extends WebDriverFuncrions {
 public void initDrivers(){
 	
 
-	 driver = new ChromeDriver();
-	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
+	 
+	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
+	driver = new FirefoxDriver();
 	driver.get("http://www.facebook.com");
 
 	
