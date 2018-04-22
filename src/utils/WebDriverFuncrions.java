@@ -9,9 +9,7 @@ public class WebDriverFuncrions {
 	public void typeByXpath(String loc, String value){
 		
 		driver.findElement(By.xpath(loc)).sendKeys(value);
+	
 		
+		}
 	}
-	
-	
-
-}
