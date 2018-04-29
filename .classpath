@@ -15,5 +15,7 @@
 	<classpathentry kind="lib" path="C:/Users/Redwan/workspace/FrameWork/Jars/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Redwan/workspace/FrameWork/Jars/okhttp-3.9.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Redwan/workspace/FrameWork/Jars/okio-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Redwan/workspace/FrameWork/Jars/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Redwan/workspace/FrameWork/Jars/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
