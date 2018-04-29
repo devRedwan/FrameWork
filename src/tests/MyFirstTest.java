@@ -15,6 +15,7 @@ public class MyFirstTest extends config{
 	vlaues val = new vlaues();
 	
 	
+	
 	// Step 1: Initiate browser
 	@Test
 	public void testingFirstName(){
@@ -34,8 +35,11 @@ public class MyFirstTest extends config{
 	// lastName
 	driver.findElement(By.xpath(loc.lnameLocator)).sendKeys(val.lnameValue);
 	
+	APPLICATION_LOGS.debug("My Test Eneded");
 	
-	APPLICATION_LOGS.debug("My test started ");
+	
+	
+	//APPLICATION_LOGS.debug("My test started ");
 	// Jar is a collection of Java Classes 
 	//@test = Define a test
 	// @BeforeTest = Define Run once before all tests

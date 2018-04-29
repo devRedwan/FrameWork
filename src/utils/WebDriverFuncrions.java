@@ -1,14 +1,15 @@
 package utils;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.log4testng.Logger;
+
 
 public class WebDriverFuncrions {
 	
 	public static Logger APPLICATION_LOGS = Logger.getLogger("devpinoyLogger");
 	
-	public WebDriver driver ;
+	protected WebDriver driver ;
 	
 	public void typeByXpath(String loc, String value){
 		
