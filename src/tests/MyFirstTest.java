@@ -28,9 +28,13 @@ public class MyFirstTest extends config{
 	
 	APPLICATION_LOGS.debug("My test started ");
 	typeByXpath(loc.fnameLocator,val.fnameValue);
+	
+	
 	driver.findElement(By.xpath(loc.fnameLocator)).sendKeys(val.fnameValue);
 	// lastName
 	driver.findElement(By.xpath(loc.lnameLocator)).sendKeys(val.lnameValue);
+	
+	
 	APPLICATION_LOGS.debug("My test started ");
 	// Jar is a collection of Java Classes 
 	//@test = Define a test
