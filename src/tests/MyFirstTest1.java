@@ -1,15 +1,11 @@
 package tests;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-
 import Locators.Locators;
 import Values.vlaues;
 import base.config;
 
-public class MyFirstTest extends config{
+public class MyFirstTest1 extends config{
 
 	Locators loc = new Locators ();
 	vlaues val = new vlaues();
@@ -27,15 +23,11 @@ public class MyFirstTest extends config{
 	// driver.findElement
 	
 	
-	APPLICATION_LOGS.debug("My test started ");
+	APPLICATION_LOGS.debug("My test started xRED!");
 	typeByXpath(loc.fnameLocator,val.fnameValue);
 	
 	
-	driver.findElement(By.xpath(loc.fnameLocator)).sendKeys(val.fnameValue);
-	// lastName
-	driver.findElement(By.xpath(loc.lnameLocator)).sendKeys(val.lnameValue);
-	
-	APPLICATION_LOGS.debug("My Test Eneded");
+	APPLICATION_LOGS.debug("My Test EnededxRED@");
 	
 	
 	
@@ -46,9 +38,5 @@ public class MyFirstTest extends config{
 	// @AfterTest = Define Run once After all tests
 	// BeforeClass = Define Run before every class
 	// AfterClass = Define Run
-	
-	
-	
-	
-    }
+		    }
 }

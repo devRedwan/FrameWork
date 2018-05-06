@@ -16,5 +16,6 @@ public class WebDriverFuncrions {
 		driver.findElement(By.xpath(loc)).sendKeys(value);
 	
 		
+		
 		}
 	}
